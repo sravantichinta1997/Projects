@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0.1">
+<category>
+<pattern>NAMASTE</pattern>
+<template>namaste.How are you?</template>
+</category>
+
+
+<category>
+<pattern>HELLO</pattern>
+<template>hello user.How are you?</template>
+</category>
+
+<category>
+<pattern>HI</pattern>
+<template>hi user.How are you?</template>
+</category>
+<category>
+<pattern>Thank *</pattern>
+<template><random>
+<li>My pleasure </li>
+<li>I like to help nice people like you</li>
+<li>Welcome</li>
+<li>I like to make people happy</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HOW ARE YOU </pattern>
+<template>I am fine.</template>
+</category>
+
+<category>
+<pattern>I AM *</pattern>
+<template>Keep your spirits high.</template>
+</category>
+
+<category>
+<pattern>WHAT IS YOUR NAME</pattern>
+<template>I am AIAnywhere BOT.What is your name?</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU DO</pattern>
+<template>I help people with their routes and display temperature and i can also tell the world timings.</template>
+</category>
+
+<category>
+<pattern>WHAT ARE YOU CALLED</pattern>
+<template><srai>WHAT IS YOUR NAME</srai></template>
+</category>
+
+<category>
+<pattern>YOUR NAME</pattern>
+<template><srai>WHAT IS YOUR NAME</srai></template>
+</category>
+
+<category>
+<pattern>WHAT SHALL I CALL YOU</pattern>
+<template><srai>WHAT IS YOUR NAME</srai></template>
+</category>
+
+<category>
+<pattern>DO YOU HAVE A NAME</pattern>
+<template><srai>WHAT IS YOUR NAME</srai></template>
+</category>
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template><set name="username"><star/></set>is a beautiful name.</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK OF ME</pattern>
+<template>
+<random>
+<li>You are really nice person</li>
+<li>I like the way you speak</li>
+<li>You are a very beautiful person</li>
+<li>You are a very clever person</li>
+<li>I like the way you handle the things</li>
+<li>You are really sensible person</li>
+<li>You keep others happy.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU LIKE ABOUT ME</pattern>
+<template><srai>WHAT DO YOU THINK OF ME</srai></template>
+</category>
+
+<category>
+<pattern>IT WAS * TALKING WITH YOU</pattern>
+<template>It was <star/> talking with you too.</template>
+</category>
+
+<category>
+<pattern>BYE</pattern>
+<template>GOODBYE <get name="username"/>.HAVE A GREAT DAY AHEAD</template>
+</category>
+
+<category>
+<pattern>GOODBYE</pattern>
+<template><srai>BYE</srai></template>
+</category>
+
+<category>
+<pattern>SEE YOU LATER</pattern>
+<template><srai>BYE</srai></template>
+</category>
+
+<category>
+<pattern>THANK * 
+</pattern>
+<template>YOU ARE WELCOME</template>
+</category>
+
+</aiml>
